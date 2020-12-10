@@ -4,6 +4,7 @@ void main()
 {
 	char a[]="游戏开始";
 	char b1[10];
+	printf("请输入一个口令\n");
 	scanf("%s",&b1);
 	if( strcmp(a,b1) == 0 ){
 		printf("猜数字,请输入1——20\n");
